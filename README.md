@@ -10,7 +10,7 @@ I recommend both having a command-line and GUI interface for working with Git.
 * In adition to Git, you will want a git client. 
     * [Github Desktop](https://desktop.github.com/) is a simple solution, but again I would recommend against it, as it is lacking in features. 
     * [SourceTree](https://www.sourcetreeapp.com/) is better, but needs to be set up initially with BitBucket and an Attlassian account, and then integrated.
-    * [GitKracken](https://www.gitkraken.com/) is a good client, but many of its better features require a paid account.
+    * [GitKraken](https://www.gitkraken.com/) is a good client. However, you need a paid subscription in order to use private repositories. Since this feature recently became free on Github, you may want to use it. If you do, then you need to look elsewhere than GitKraken
     * [**Fork**](https://git-fork.com/) is a feature rich client with a simple interface. This gets my recommendation, and all examples will be using this client.
     
 ### Setting up a Repository
