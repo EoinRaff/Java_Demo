@@ -79,4 +79,6 @@ Now if you are working with people using different IDEs, they can all work on th
 ## Git Workflow
 ```
 Under Construction
+1. How to use Fork
+2. Git Flow (https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 ```
