@@ -37,7 +37,7 @@ You can create repositories through your command line, your Git Client, or on Gi
 3. Select a location on your harddrive, and chose a name for the repo (I recommend not changing it from the name on Github)
 4. Press the "Clone" button.
 
-![alt text](https://github.com/EoinRaff/PFS_Github_Introduction/blob/master/img/fork_clone.png "Cloning a project in Fork")
+![alt text](https://github.com/EoinRaff/TA_Tutorial_Images/blob/master/PFI_Git_Intro/fork_clone.png "Cloning a project in Fork")
 
 
 ### Using a .gitignore file
