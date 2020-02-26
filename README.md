@@ -14,7 +14,7 @@ I recommend both having a command-line and GUI interface for working with Git.
 ## Setting up a Repository
 You can create repositories through your command line, your Git Client, or on Github. For simplicity sake, I recommend creating the repository on Github first.
 
-### Via Github
+### Create Repository Github
 1. Create a new repository, and give it a short but descriptive name.
     * I like to have a `README.md` file for documentation, though it is not necessary.
     * You can find a premade Java gitignore, but this doesn't have everything that you want.
@@ -22,18 +22,19 @@ You can create repositories through your command line, your Git Client, or on Gi
     * Click "Clone or Download" on your repository's home page, and copy the link (e.g. `https://github.com/EoinRaff/PFS_Github_Introduction.git`)
 3. Use either your command line or client to clone the repository.
 
-#### Via Command Line
+#### (a) Clone via Command Line
 1. Open your command line and navigate to the directory where you want to store your projects
     * If using git bash, you can (in windows, at least) navigate to this folder in the explorer, right-click and select "Git Bash here"
 2. Use the `git clone` command followed by the address of you git repo to clone it (e.g. `$ git clone https://github.com/EoinRaff/PFS_Github_Introduction.git`)
     * Sometimes an error can occur here when pasting the address, so try typing it by hand
 3. This will create a folder for your repository.
 
-#### Via Fork
+#### (b) Clone via Fork
 1. In Fork, navigate to File > Clone...
 2. If you have copied a url to your clipboard, it should appear automatically here. If not, then paste or type in the repository's address.
 3. Select a location on your harddrive, and chose a name for the repo (I recommend not changing it from the name on Github)
 4. Press the "Clone" button.
+
 ![alt text](https://github.com/EoinRaff/PFS_Github_Introduction/blob/master/img/fork_clone.png "Cloning a project in Fork")
 
 
