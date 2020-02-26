@@ -64,3 +64,11 @@ These files do not need to be tracked by Git, as they will be automatically gene
 As such, in order to keep your repository small and tidy, we ignore these files.
 Likewise you may want to add files such as .png, .mp4 etc. if you have large texture or audio files, as they may be too large to upload to Github. 
 * Git LFS exists for handling Large Files, though this has a tight storage limit on the free plan, and is somewhat complicated to manage. I will not go into it here, but it is worth knowing that it exists if you need it.
+
+## Create a new project from your IDE
+Wheter using Eclipse or IntelliJ, you create a new project as normal. The important step is to chose your repository as the containing folder, rather than the default suggestion.
+
+If you have updated your .gitignore file, then all the IDE specific files will be ignored, and gihub will only track changes in the `src` folder (or other folders you create). 
+This means that only the java classes that **you** create will be tracked. IDE specific files will remain on your computer, but will not be stored on github. 
+
+Now if you are working with people using different IDEs, they can all work on the same `\src` folder and `.java` files, without having to have `.project` (eclipse) or `.idea` (intellij) files that they do not need.
