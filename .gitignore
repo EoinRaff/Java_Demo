@@ -40,3 +40,21 @@ hs_err_pid*
 log/
 target/
 /bin/
+
+#MS Office temp files
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
